@@ -3,6 +3,7 @@ body {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
 .semestre {
   border: 2px solid #aaa;
   border-radius: 10px;
@@ -10,9 +11,11 @@ body {
   margin-bottom: 20px;
   background-color: #fff;
 }
+
 .semestre h2 {
   margin-top: 0;
 }
+
 .ramo {
   display: inline-block;
   padding: 10px;
@@ -24,13 +27,16 @@ body {
   min-width: 150px;
   transition: background-color 0.3s ease;
 }
+
 .ramo.aprobado {
   background-color: purple;
   color: white;
   text-decoration: line-through;
 }
+
 .ramo.bloqueado {
   background-color: #ccc;
   color: #666;
   cursor: not-allowed;
 }
+
